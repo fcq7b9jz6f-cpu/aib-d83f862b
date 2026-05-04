@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aethelred - The Future of Intelligence</title>
+    <meta name="description" content="Aethelred is a next-generation AI agency specializing in crafting bespoke intelligence systems.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;700&family=Migra:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <script type="importmap">{
+      "imports": {
+        "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+      }
+    }</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+</head>
+<body>
+    <canvas id="webgl-canvas"></canvas>
+
+    <header class="header">
+        <div class="header__logo">
+            <a href="#">Aethelred</a>
+        </div>
+        <nav class="header__nav">
+            <a href="#thesis">Thesis</a>
+            <a href="#practice">Practice</a>
+            <a href="#works">Works</a>
+            <a href="#contact">Inquiry</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section-hero" id="overture">
+            <div class="hero-content">
+                <h1 class="hero-title">Building<br>Tomorrow's<br>Cognition</h1>
+                <p class="hero-subtitle">We architect bespoke AI systems that transcend automation, creating new paradigms of digital intelligence.</p>
+            </div>
+        </section>
+
+        <section class="section-manifesto" id="thesis">
+            <div class="manifesto-grid">
+                <div class="manifesto-text">
+                    <h2 class="section-title">The Thesis</h2>
+                    <p class="large-body">We believe intelligence is not a commodity to be mined, but a craft to be honed. Current AI is a powerful tool, but true cognition requires a bespoke approach—one that understands the nuances of your domain and the soul of your enterprise. We call this 'Synthetic Acumen'.</p>
+                </div>
+                <div class="manifesto-image">
+                    <img src="https://images.pexels.com/photos/18069697/pexels-photo-18069697.png?auto=compress&cs=tinysrgb&h=650&w=940" alt="Abstract metallic structure">
+                </div>
+            </div>
+        </section>
+
+        <section class="section-methodology" id="practice">
+            <h2 class="section-title-centered">The Practice</h2>
+            <div class="methodology-grid">
+                <div class="method-item">
+                    <span class="method-number">01</span>
+                    <h3 class="method-title">Deep Symbiosis</h3>
+                    <p>We embed our thinking with yours. Our process begins with a deep ontological dive into your operational reality, mapping the implicit knowledge and unspoken rules that define your success.</p>
+                </div>
+                <div class="method-item">
+                    <span class="method-number">02</span>
+                    <h3 class="method-title">Algorithmic Craft</h3>
+                    <p>We don't just assemble models; we architect them. From custom neural fabrics to novel learning heuristics, we build the precise cognitive core your challenge demands.</p>
+                </div>
+                <div class="method-item">
+                    <span class="method-number">03</span>
+                    <h3 class="method-title">Ethical Resonance</h3>
+                    <p>An intelligent system must be a responsible one. We integrate ethical frameworks and transparent decisioning as non-negotiable components of the architecture, ensuring your AI aligns with your values.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-works" id="works">
+            <h2 class="section-title">Selected Works</h2>
+            <div class="works-grid">
+                <a href="#" class="work-item">
+                    <img src="https://images.pexels.com/photos/18069693/pexels-photo-18069693.png?auto=compress&cs=tinysrgb&h=650&w=940" alt="Project 1 Image">
+                    <div class="work-info">
+                        <h3>Project Chimera</h3>
+                        <p>Dynamic threat analysis for a global logistics firm.</p>
+                    </div>
+                </a>
+                <a href="#" class="work-item">
+                    <img src="https://images.pexels.com/photos/18069694/pexels-photo-18069694.png?auto=compress&cs=tinysrgb&h=650&w=940" alt="Project 2 Image">
+                    <div class="work-info">
+                        <h3>Arbiter Protocol</h3>
+                        <p>High-frequency arbitrage model for a decentralized finance consortium.</p>
+                    </div>
+                </a>
+                <a href="#" class="work-item">
+                    <img src="https://images.pexels.com/photos/18069696/pexels-photo-18069696.png?auto=compress&cs=tinysrgb&h=650&w=940" alt="Project 3 Image">
+                    <div class="work-info">
+                        <h3>Ephemeris Engine</h3>
+                        <p>Generative narrative system for an immersive entertainment platform.</p>
+                    </div>
+                </a>
+                 <a href="#" class="work-item">
+                    <img src="https://images.pexels.com/photos/18069695/pexels-photo-18069695.png?auto=compress&cs=tinysrgb&h=650&w=940" alt="Project 4 Image">
+                    <div class="work-info">
+                        <h3>Project Soma</h3>
+                        <p>Predictive modeling for biopharmaceutical research.</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="section-contact" id="contact">
+            <div class="contact-content">
+                <h2 class="section-title">The Inquiry</h2>
+                <p class="large-body">Our work is selective and intensive. If you have a foundational challenge that commodity AI cannot solve, we invite you to begin a conversation.</p>
+                <a href="mailto:inquire@aethelred.ai" class="contact-button">inquire@aethelred.ai</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Aethelred Intelligence. All Rights Reserved.</p>
+        <div class="footer-links">
+            <a href="#">Privacy</a>
+            <a href="#">Signal</a>
+        </div>
+    </footer>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
